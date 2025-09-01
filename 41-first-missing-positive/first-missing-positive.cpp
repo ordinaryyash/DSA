@@ -4,7 +4,8 @@ public:
         sort(a.begin(), a.end());
         int expected = 1;
         for (int i = 0; i < a.size(); i++) {
-            if (a[i] == expected) expected++;
+            if (a[i] == expected) 
+            expected++;
         }
         return expected;
     }
